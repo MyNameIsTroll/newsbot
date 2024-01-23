@@ -18,7 +18,7 @@ A robot that publishes the content of RSS feeds on a Mastodon account.
 8. In scipt ``newsbot.py``, modify the number of publications it should send per execution (default = 3).
 9. Create a CRON task (``crontab -e``) with a call to the python script every X minutes. <br>
    EXAMPLE:<br>
-   ``*/10 * * * * python /HOME/USER/PATH/newsbot.py``
+   ``*/10 * * * * usr/bin/python3 /HOME/USER/PATH/newsbot.py``
 
 10. Please remember to set your robot's toots to **Unlisted** to avoid flooding public instance.
    ![image](https://github.com/MyNameIsTroll/newsbot/assets/31790025/883b393b-4b20-42f8-aeac-a9842161b238)
